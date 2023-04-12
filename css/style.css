@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{ 
+    
+}
+nav{
+  
+width: 60%;
+}
+nav ul{
+
+display: flex;
+
+list-style: none;
+
+justify-content: end;
+}
+nav ul li{margin-left: 100px;
+
+}
+
+
+nav ul li a{
+text-decoration: none;  
+text-transform: uppercase;
+color: #626262;
+font-family: 'Playfair Display', serif;
+}
+.hero{width: 90%;
+    margin: auto;
+    
+}
+.hero img{
+    width: 100%;
+    
+} 
+
+.photodiart{width: 80%;
+    margin: 50px auto;
+
+}
+.photodiart h3{ font-size: 20px;
+    color: #b4ad9e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.photodiart h1{ font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.photodiart p{ color: #626262;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+.photodiart h4{
+    font-size: 20px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+  
+font-family: 'Ubuntu', sans-serif;
+
+}
+    
+.lifesty{ display: flex;
+    width: 80%;
+    margin: 100px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.lifestyle_item{ width: 48%;
+    margin-bottom: 70px;
+
+}
+.lifestyle_item img{
+    width: 100%;
+    
+}
+.lifestyle_item h4{    font-size: 20px;
+    color: #b4ad9e;
+    margin-bottom: 20px 0;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.lifestyle_item h1{font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.lifestyle_item p{ color: #626262;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+
+.sing_up{background-color: #f0f0f0;
+    padding: 70px;
+
+}
+.newslanter{width: 28%;
+    margin: auto;
+
+}
+.newslanter h1 {font-size: 30px;
+    color: #626262;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    
+}
+.newslanter input{ border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    
+}
+.newslanter input::placeholder{
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+
+}
+.newslanter input:focus{
+    outline: none;
+}
+.button{text-align: center;
+    margin-bottom: 100px;
+    
+
+
+}
+
+.button button{background-color: transparent;
+    padding: 15px 10px ;
+    color: #626262;
+    font-size: 16px;
+    border-top-color: #626262;
+    border-left-color: #626262;
+    border-right-color: #f0f0f0f0;
+    border-bottom-color: #f0f0f0f0;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    
+}
+
+footer{background-color: #f0f0f0;
+   padding: 30px 20px;
+
+}
+.footer_contain{width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.term{
+
+}
+.term ul{list-style: none;
+    display: flex;
+    
+}
+.term ul li{margin-right: 20px;
+    
+}
+.term ul li a{text-decoration: none;
+    font-size: 14px;
+    color: #626262;
+   text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    
+}
+.socile_icon{
+
+}
+.socile_icon ul{list-style: none;
+    display: flex;
+    
+}
+.socile_icon ul li{
+    
+}
+.socile_icon ul li a{ text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    
+}
